@@ -18,6 +18,8 @@ module.exports = {
     'react',
   ],
   rules: {
+    'jsx-a11y/no-noninteractive-element-interactions': 0,
+    'max-len': 0,
     'react/style-prop-object': 0,
     'react/jsx-filename-extension': 0,
     'arrow-body-style': 0,
